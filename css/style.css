@@ -83,7 +83,7 @@ a {
     }
 
     .wrapper > .inner {
-        width: 65em;
+        width: 60em;
     }
 
 }
@@ -646,6 +646,7 @@ form ul.actions li {
 input {font-family: "Raleway", Helvetica, sans-serif;}
 
 input[type="text"], input[type="email"], textarea {
+    color: white;
     background-color: #29333C; 
     border: 0;
     width: 100%;
