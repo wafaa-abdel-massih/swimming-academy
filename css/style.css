@@ -311,7 +311,7 @@ a {
 
     .links li {text-align: center;}
 
-    #nav {width: -webkit-fill-available;}
+    #nav {width: -webkit-fill-available; margin-top: 2em;}
 
     .navbar-links.active {display: flex;}
 }
