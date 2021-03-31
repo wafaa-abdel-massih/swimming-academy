@@ -303,6 +303,18 @@ a {
 
     #home p {font-size: 1.3em;}
 
+    .header-flex {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    #nav {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    #nav ul.links {margin-top: 0;}
+
     .toggle-button {display: flex; justify-content: flex-end;}
 
     .navbar-links {display: none; width: 100%;}
@@ -310,8 +322,6 @@ a {
     .links {flex-direction: column; width: 100%;}
 
     .links li {text-align: center;}
-
-    #nav {width: -webkit-fill-available; margin-top: 2em;}
 
     .navbar-links.active {display: flex;}
 }
