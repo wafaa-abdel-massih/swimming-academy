@@ -638,19 +638,15 @@ a {
     text-align: center;
 }
 
-form {
-    margin: 0 0 2em 0;
-}
-
 form ul.actions {
-    margin-top: 4em;
+    margin-top: 3em;
     cursor: default;
     padding-left: 0;
 }
 
 form ul.actions li {
     display: inline-block;
-    padding: 0 1em 1em 0;
+    padding: 0 2em 1em 2em;
 }
 
 input {font-family: "Raleway", Helvetica, sans-serif;}
@@ -661,7 +657,6 @@ input[type="text"], input[type="email"], textarea {
     border: 0;
     width: 100%;
     min-height: 50px;
-    padding: 15px;
     appearance: none;
     border-radius: 15px;
     display: block;
@@ -693,6 +688,13 @@ textarea {height: 10em;}
 .form-container {
     margin-left: auto;
     margin-right: auto;
+}
+
+@media screen and (max-width: 480px){
+    .i-text, .i-email {
+        width: 100%;
+        float: none;
+    }
 }
 
 @media (max-width: 980px){
